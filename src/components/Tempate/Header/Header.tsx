@@ -17,7 +17,7 @@ const Header: React.FC = () => {
     <div className={styles["header"]}>
       <div
         className={styles["header__container"]}
-        onClick={() => setOpenLongMenu(false)}
+        onClick={():void => setOpenLongMenu(false)}
       >
         <div className={styles["header__container-logo"]}>
           <ImageFC src={Logotip} alt={"логотип"} />

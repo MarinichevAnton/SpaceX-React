@@ -7,7 +7,7 @@ import {LongMenuContext} from "../../../App";
 const MenuItems: React.FC = () => {
     const { setOpenLongMenu } = useContext(LongMenuContext);
     return (
-        <div className={styles["menuItems"]} onClick={() => setOpenLongMenu(true)}>
+        <div className={styles["menuItems"]} onClick={():void => setOpenLongMenu(true)}>
             {navBarList.map((obj)=>(
                 <ParagraphFC className={styles["menuItems__items"]} text={obj.item} key={obj.item} />
             ))}

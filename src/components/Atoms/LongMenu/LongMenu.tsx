@@ -9,7 +9,7 @@ const LongMenu: React.FC = () => {
     <>
       <button
         className={styles["buttonLongMenu"]}
-        onClick={() => setOpenLongMenu(!openLongMenu)}
+        onClick={():void => setOpenLongMenu(!openLongMenu)}
       >
         <div className={styles["buttonLongMenu__dots"]} />
         <div className={styles["buttonLongMenu__dots"]} />
