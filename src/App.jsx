@@ -14,9 +14,7 @@ function App() {
       <div className={styles["App"]} ref={MissClick}>
         <Header />
         <div onClick={() => setOpenLongMenu(false)}>
-          <Routes>
-            <Route path="/SpaceX-React" element={<MainPage />} />
-          </Routes>
+          <MainPage />
         </div>
       </div>
     </LongMenuContext.Provider>
