@@ -4,7 +4,7 @@ import FirstTitleFC from "../../Atoms/FirstTitleFC/FirstTitleFC";
 import ParagraphFC from "../../Atoms/ParagraphFC.tsx/ParagraphFC.tsx";
 import styles from "./style.module.scss";
 
-const TitleAndButtonStart: React.FC = () => {
+const  TitleAndButtonStart: React.FC = () => {
   return (
     <div className={styles["titleAndButtonStart"]}>
       <div className={styles["titleAndButtonStart__text"]}>

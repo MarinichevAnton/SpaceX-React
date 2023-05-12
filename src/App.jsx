@@ -15,7 +15,7 @@ function App() {
         <Header />
         <div onClick={() => setOpenLongMenu(false)}>
           <Routes>
-            <Route path="/" element={<MainPage />} />
+            <Route path="/SpaceX-React" element={<MainPage />} />
           </Routes>
         </div>
       </div>
