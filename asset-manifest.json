@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SpaceX-React/static/css/main.797a7f9f.css",
+    "main.js": "/SpaceX-React/static/js/main.0f63cba7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SpaceX-React/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fon.png": "/SpaceX-React/static/media/fon.d34b045fba9c8c550801.png",
+    "index.html": "/SpaceX-React/index.html",
+    "main.797a7f9f.css.map": "/SpaceX-React/static/css/main.797a7f9f.css.map",
+    "main.0f63cba7.js.map": "/SpaceX-React/static/js/main.0f63cba7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SpaceX-React/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.797a7f9f.css",
+    "static/js/main.0f63cba7.js"
+  ]
+}
