@@ -1,0 +1,72 @@
+.cart {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  cursor: pointer;
+  &__text {
+    font-size: 20px;
+    color: #b1b2b4;
+  }
+  &__highText {
+    font-size: 60px;
+    color: #ececec;
+  }
+}
+
+.cart:nth-child(1) {
+  background: linear-gradient(
+    to bottom right,
+    transparent,
+    rgb(172, 172, 172) 100%
+  );
+  &:hover {
+    background: linear-gradient(
+      to bottom right,
+      transparent,
+      rgb(255, 255, 255)
+    );
+  }
+}
+
+.cart:nth-child(2) {
+  background: linear-gradient(
+    to bottom left,
+    transparent,
+    rgb(172, 172, 172) 100%
+  );
+  &:hover {
+    background: linear-gradient(
+      to bottom left,
+      transparent,
+      rgb(255, 255, 255)
+    );
+  }
+}
+
+.cart:nth-child(3) {
+  background: linear-gradient(
+    to top right,
+    transparent,
+    rgb(172, 172, 172) 100%
+  );
+  &:hover {
+    background: linear-gradient(to top right, transparent, rgb(255, 255, 255));
+  }
+}
+
+.cart:nth-child(4) {
+  background: linear-gradient(
+    to top left,
+    transparent,
+    rgb(172, 172, 172) 100%
+  );
+  &:hover {
+    background: linear-gradient(to top left, transparent, rgb(255, 255, 255));
+  }
+}
